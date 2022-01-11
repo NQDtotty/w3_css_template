@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+#header {
+    width: 100%;
+    height: 46.5px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav > li > a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font: 15px/22.5px Lato, sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+}
+
+#nav > li:hover > a {
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav > li {
+    position: relative;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    width: 170px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#nav .subnav > li {
+    display: block;
+}
+
+#nav .subnav > li > a {
+    display: inline-block;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    width: 100%;
+}
+
+#nav .subnav > li:hover > a {
+    background-color: #ccc;
+}
+
+#nav > li:hover > .subnav {
+    display: block;
+}
+
+.my-arrow-down {
+    font-size: 15px;
+}
+
+#search-button {
+    float: right;
+}
+
+.my-search-button {
+    display: inline-block;
+    color: #fff;
+    line-height: 46.5px;
+    padding: 0 24px;
+}
+
+#search-button:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#slider {
+    position: relative;
+    padding-top: 50%;
+    margin-top: 46.5px;
+    background: url("/w3_band/assets/img/slider/slider1.jpg") no-repeat top center/cover;
+}
+
+#slider > .text-content {
+    padding: 32px;
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h3.text-heading {
+    font: 400 24px/36px "Segoe UI", Arial, sans-serif;
+    margin: 10px;
+}
+
+.text-description {
+    font-size: 15px/22.5px Lato, sans-serif;
+    margin: 15px;
+}
+
+#content .content-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
+}
+
+#content .section-heading {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin: 10px 0;
+}
+
+#content .section-sub-heading {
+    text-align: center;
+    font-size: 15px;
+    margin: 15px 0;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .about-text {
+    text-align: justify;
+    line-height: 1.4;
+    margin: 15px;
+}
+
+#content .member-list {
+    padding: 32px 0;
+    /* overflow: hidden; */
+}
+
+#content .member-list .member-item {
+    text-align: center;
+    float: left;
+    width: calc(100% / 3);
+}
+
+#content .member-name {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+#content .member-avatar {
+    width: 150px;
+    border-radius: 4px;
+}
+
+.tour-section {
+    background-color: #000;
+}
+
+.ticket-list {
+    background-color: #fff;
+    list-style-type: none;
+}
+
+.ticket-list > li {
+    padding: 8px 16px;
+    font: 15px/22.5px Lato, sans-serif;
+    color: rgb(117, 117, 117);
+    border: rgb(221, 221, 221) solid 1px;
+}
+
+.ticket-list .sold-out {
+    background-color: rgb(244, 67, 54);
+    color: #fff;
+    display: inline-block;
+    margin-left: 16px;
+    padding: 0 8px;
+}
+
+.ticket-list .quantity {
+    float: right;
+    display: block;
+    padding: 0 8px;
+    margin-right: 8px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.place-list {
+    padding: 32px 0;
+    margin: 0 -8px;
+}
+
+.place-list .place-item {
+    width: calc(100% / 3);
+    float: left;
+    padding: 0 8px;
+    background-color: #fff;
+    background-clip: content-box;
+}
+
+.place-list .place-img {
+    width: 100%;
+}
+
+.place-list .place-img:hover {
+    opacity: 0.6;
+}
+
+.place-list .place-body {
+    padding: 0 16px;
+}
+
+.place-list .place-heading {
+    margin: 15px 0;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.place-list .place-time {
+    margin: 15px 0;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.place-list .place-discription {
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.place-list .place-buy-ticket {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.place-list .place-buy-ticket:hover {
+    background-color: #ccc;
+    color: #000;
+}
