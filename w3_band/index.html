@@ -5,24 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My W3.CSS Template</title>
+    <title>Thoai's Template</title>
     <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    // Web The Band
     <div id="main">
         <div id="header">
-            <ul id="nav">
+            <ul class="nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Band</a></li>
+                <li><a href="#">Bank</a></li>
                 <li><a href="#">Tour</a></li>
                 <li><a href="#">Contact</a></li>
                 <li>
-                    <a href="#">
-                        More
-                        <i class="my-arrow-down ti-angle-down"></i>
+                    <a href="#">More
+                        <i class="ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
                         <li><a href="#">Merchandise</a></li>
@@ -32,23 +30,24 @@
                 </li>
             </ul>
 
-            <div id="search-button">
-                <i class="my-search-button ti-search"></i>
+            <div class="search-button">
+                <i class="my-ti-search ti-search"></i>
             </div>
         </div>
 
         <div id="slider">
-            <div class="text-content">
-                <h3 class="text-heading">Los Angeles</h3>
-                <div class="text-description">We had the best time playing at Venice Beach!</div>
+            <div class="text-slider">
+                <h3 class="heading-text">Los Angeles</h3>
+                <p class="description-text">We had the best time playing at Venice Beach!</p>
             </div>
         </div>
 
         <div id="content">
-            <div class="content-section">
-                <h2 class="section-heading">THE BAND</h2>
-                <p class="section-sub-heading">We love music</p>
-                <p class="about-text">
+            <div class="section-content">
+                <div class="heading-section">THE BAND</div>
+                <div class="slogan-section">We love music</div>
+
+                <div class="text-about">
                     We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
@@ -57,68 +56,69 @@
                     consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                     enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat.
-                </p>
+                </div>
 
-                <div class="member-list">
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/band/member1.jpg" alt="Name" class="member-avatar">
+                <div class="team-list">
+                    <div class="team-item">
+                        <p class="team-name">Name</p>
+                        <img src="/w3_band/assets/img/band/member1.jpg" alt="" class="team-avatar">
                     </div>
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/band/member1.jpg" alt="Name" class="member-avatar">
+                    <div class="team-item">
+                        <p class="team-name">Name</p>
+                        <img src="/w3_band/assets/img/band/member1.jpg" alt="" class="team-avatar">
                     </div>
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/band/member1.jpg" alt="Name" class="member-avatar">
+                    <div class="team-item">
+                        <p class="team-name">Name</p>
+                        <img src="/w3_band/assets/img/band/member1.jpg" alt="" class="team-avatar">
                     </div>
 
                     <div class="clear"></div>
                 </div>
             </div>
 
-            <div class="tour-section">
-                <div class="content-section">
-                    <h2 class="section-heading text-white">TOUR DATES</h2>
-                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+            <div class="tour-date">
+                <div class="text-white section-content">
+                    <div class="heading-section">TOUR DATES</div>
+                    <div class="slogan-section">Remember to book your tickets!</div>
                     <br>
-                    <ul class="ticket-list">
+                    <ul class="book-date">
                         <li>September <span class="sold-out">Sold out</span></li>
-                        <li>Octorber <span class="sold-out">Sold out</span></li>
-                        <li>Novermber <span class="quantity">3</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
                     </ul>
 
-                    <div class="place-list">
-                        <div class="place-item">
-                            <img src="./assets/img/places/place1.jpg" alt="New york" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">New York</h3>
-                                <p class="place-time">Fri 27 Nov 2016</p>
-                                <p class="place-discription">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
-                                </p>
-                                <a href="#" class="place-buy-ticket">Buy Tickets</a>
+                    <div class="tour-list">
+                        <div class="tour-item">
+                            <img src="/w3_band/assets/img/places/place1.jpg" class="tour-image"></img>
+                            <div class="tour-infor">
+                                <h4 class="infor-heading">New York</h4>
+                                <div class="infor-date">Fri 27 Nov 2016</div>
+                                <div class="infor-description">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </div>
+                                <div class="infor-button">Buy Tickets</div>
                             </div>
                         </div>
-
-                        <div class="place-item">
-                            <img src="./assets/img/places/place2.jpg" alt="New york" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">Paris</h3>
-                                <p class="place-time">Sat 28 Nov 2016</p>
-                                <p class="place-discription">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
-                                </p>
-                                <a href="#" class="place-buy-ticket">Buy Tickets</a>
+                        <div class="tour-item">
+                            <img src="/w3_band/assets/img/places/place2.jpg" class="tour-image"></img>
+                            <div class="tour-infor">
+                                <h4 class="infor-heading">Paris</h4>
+                                <div class="infor-date">Sat 28 Nov 2016</div>
+                                <div class="infor-description">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </div>
+                                <div class="infor-button">Buy Tickets</div>
                             </div>
                         </div>
-
-                        <div class="place-item">
-                            <img src="./assets/img/places/place3.jpg" alt="New york" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">San Francisco</h3>
-                                <p class="place-time">Sun 29 Nov 2016</p>
-                                <p class="place-discription">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
-                                </p>
-                                <a href="#" class="place-buy-ticket">Buy Tickets</a>
+                        <div class="tour-item">
+                            <img src="/w3_band/assets/img/places/place3.jpg" class="tour-image"></img>
+                            <div class="tour-infor">
+                                <h4 class="infor-heading">San Francisco</h4>
+                                <div class="infor-date">Sun 29 Nov 2016</div>
+                                <div class="infor-description">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </div>
+                                <div class="infor-button">Buy Tickets</div>
                             </div>
                         </div>
 
@@ -127,16 +127,44 @@
                 </div>
             </div>
 
-            <div class="content-section">
-                <h2 class="section-heading">CONTACT</h2>
-                <p class="section-sub-heading">Fan? Drop a note!</p>
+            <div class="section-content">
+                <div class="heading-section">CONTACT</div>
+                <div class="slogan-section">Fan? Drop a note!</div>
             </div>
         </div>
 
-        <div id="footer">
+        <div id="modal">
+            <div class="container">
+                <div class="close-modal">
+                    <i class="ti-close"></i>
+                </div>
+                <div class="header">
+                    <i class="ti-bag"></i>
+                    Tickets
+                </div>
+                <div class="content">
+                    <label for="" class="modal-label">
+                        <i class="ti-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </label>
+                    <input type="text" placeholder="How many?" class="modal-input">
+                    <label for="" class="modal-label">
+                        <i class="ti-user"></i>
+                        Send To
+                    </label>
+                    <input type="text" placeholder="Enter email" class="modal-input">
 
+                    <button class="modal-pay">
+                        PAY
+                        <i class="ti-check"></i>
+                    </button>
+                </div>
+                <div class="footer">
+                    Need
+                    <a href="" class="modal-help">help?</a>
+                </div>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
